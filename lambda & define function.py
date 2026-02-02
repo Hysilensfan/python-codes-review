@@ -11,11 +11,11 @@ print(f"there are the multiplication table: ")
 for index in range(81):
     i, j = index // 9 + 1 ,index % 9 + 1;add(i, j)
     while j == 9:print();break
-|
-|
-|
-|
-|
+#|
+#|
+#|
+#|
+#|
 #Usage:
 c=lambda d:d-4 # Here c is a lambda function, which is like a tiny function we write in one line. It returns d minus 4
 d=int(input());print(c(d))
