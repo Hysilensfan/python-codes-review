@@ -4,6 +4,8 @@ print(f"there are the multiplication table: ")
 for index in range(81):
     i, j = index // 9 + 1 ,index % 9 + 1;add(i, j)
     while j == 9:print();break
+
+
 #Code Comparison(using class)
 class Multiplicationtable(object):
     def __init__(self):
